@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+.post{
+    position: relative;
+    width: 360px;
+    min-height: 400px;
+    background: #fff;
+    padding: 10px;
+}
+.post .post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post .post-header .userName{
+    display: flex;
+    align-items: flex-start;
+}
+.post .post-header .profPic .userName{
+    display: flex;
+    justify-content: flex-start;
+}
+.post .post-header .userName h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+}
+.post .post-header .userName h4 span{
+    font-size: 0.75m;
+    color: grey
+}
+.profPic{
+    font-size: 40px;
+    margin-right: 10px;
+  }
+.more{
+    font-size: 40px;
+    margin-right: 10px;
+    transform: scale(0.6);  
+}
+.Leftheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 -10px 0 0; 
+}
+  .post-img-container img {
+    max-width: 100%;
+    height: auto;
+}
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.post-icons i:nth-child(1),
+.post-icons i:nth-child(2),
+.post-icons i:nth-child(3) {
+    margin-right: 10px; 
+    font-size: 24px;
+}
+.post-icons i:nth-child(4) {
+    margin-left: auto;
+    font-size: 24px;
+}
